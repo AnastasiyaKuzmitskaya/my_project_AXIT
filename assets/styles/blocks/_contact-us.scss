@@ -1,0 +1,94 @@
+.contact-us{
+    padding: 70px 0 50px 0;
+    
+    &__title{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    &__secondary-title{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #86878B;
+        margin-bottom: 90px;
+    }
+
+    &__form{
+        background-color:#FFFFFF;
+    }
+
+    &__information--wrapper{
+        display: flex;
+        margin-bottom: 50px;
+        gap:0 30px;
+    }
+    
+    &__personal-information{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    &__personal-massage{
+        width: 50%;
+    }
+    &__info{
+        padding: 16px 0;
+        border-top:none;
+        border-left:none;
+        border-right: none;
+        outline: none;
+        border-bottom: 1px solid #bdbdbd;
+        margin-bottom: 35px;
+        font-size: 14px;
+        font-weight: 400;
+        color:#BDBDBD;
+
+        &::placeholder{
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            color:#bdbdbd;
+        }
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    &__massage-info{
+        height: 100%;
+        resize: none;
+        width: 100%;
+    } 
+    
+    &__button{
+        width:370px;
+        height:58px;
+        display: block;
+        margin: 0 auto ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+.banner-section{
+    background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/header/home_page_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 231px 0 180px;
+
+    &__content{
+        display: flex;
+    } 
+
+    &__section-details{
+        margin-right: 30px;
+    }
+
+    &__logo{
+        margin-bottom: 70px ; 
+    
+    }
+    &__title{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        max-width: 670px;
+    }
+    
+    &__descr{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: left;
+        color: #FFFFFF;
+        max-width: 270px;
+        line-height: 21px;
+        margin-bottom: 40px;
+    }
+}
+    
+    
+.form{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 470px;
+    
+    &__controls{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px 75px 50px;
+    }
+    &__title{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #333333;
+        margin: 0  0 45px 0;
+    }    
+    &__title-colortext-red{
+        color: #EC7979;
+    }
+
+    &__control{
+        border-top:none;
+        border-left:none;
+        border-right:none;
+        border-bottom: 1px solid #BDBDBD;
+        padding: 16px 0;
+        margin-bottom: 16px;
+        outline: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #BDBDBD;
+            
+        &:last-child{
+            margin-bottom: 0;
+        }
+
+        &::placeholder{
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            color: #BDBDBD;
+        }
+    }
+}
+
+

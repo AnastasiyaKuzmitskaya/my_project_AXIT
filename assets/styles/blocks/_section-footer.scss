@@ -1,0 +1,30 @@
+.section-footer{
+    background: #000000;
+    padding: 40px 0 20px 0;
+
+    &__icons{
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 30px;
+    }
+    &__footer-info{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.icons{
+    &__footer-icon{
+    Width:45px;
+    Height:45px;
+        &:hover path{
+            fill: #7c7979;
+        }
+    }
+}
+
+

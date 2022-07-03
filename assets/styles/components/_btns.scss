@@ -1,0 +1,65 @@
+.form__get-started-btn{
+    font-family: 'Open Sans';
+    font-style: normal; 
+background: #EC7979;
+border-radius: 0px 0px 10px 10px;
+height: 60px;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 15px;
+border:none;
+transition: background-color .3s ease-in-out;
+
+}
+.form__get-started-btn:hover{
+    cursor:pointer;
+    background-color: #722e2e;
+
+} 
+
+
+.btn--transparent{
+	transition: background-color .3s ease-in-out;
+	outline: none;
+	background-color: transparent;
+    color: #FFFFFF;
+
+
+} 
+
+    .btn--transparent:hover {
+	color: #000;
+	background-color: #fff;
+    cursor: pointer;
+}
+
+
+.btn{
+    width: 270px;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+
+
+}
+
+.btn-red {
+    background-color: #c56565;
+    color: #FFFFFF;
+    transition: background-color .3s ease-in-out;
+    border: none;
+}
+
+.btn-red:hover{
+    cursor: pointer;
+    background-color: #722e2e;
+}
+
+.button__contact-us{
+    width:370px;
+    height:58px;
+display: block;
+margin: 0 auto 50px;
+}
